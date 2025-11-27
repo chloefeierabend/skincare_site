@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure Essence Skincare</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="newsletter.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="featuredProducts.css">
+    <link rel="stylesheet" href="skinQuiz.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Pure Essence</a>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skin Quiz</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="Account">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="Wishlist">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path
+                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                        </path>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="Cart">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-badge">3</span>
+                </button>
+                <button class="menu-btn" aria-label="Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="./img/fleur-kaan-w4Dj3MshHQ0-unsplash.jpg">
+                <!-- <img src="./img/kaeme-WrZutKjrI2U-unsplash.jpg"> -->
+            </div>
+            <div class="hero-content">
+                <h1>Discover Your Pure Essence</h1>
+                <p>Experience the transformative power of nature with our minimalist skincare collection. Crafted with
+                    the finest botanical ingredients for radiant, healthy skin.</p>
+                <a href="#products" class="btn btn-primary">Shop Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured" id="products">
+        <div class="featured-container">
+            <h2 class="section-title">Best Sellers</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-image-inner">
+                            <img src="./img/edz-norton-A-eV95evtV8-unsplash.jpg" alt="Product 1">
+                        </div>
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Serum</div>
+                        <h3 class="product-name">Hydrating Essence</h3>
+                        <p class="product-description">A lightweight, fast-absorbing serum that delivers deep hydration
+                            and a luminous glow.</p>
+                        <div class="product-price">$48</div>
+                        <div class="product-actions">
+                            <button class="btn btn-product">Add to Cart</button>
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-image-inner">
+                            <img src="./img/mathilde-langevin-p3O5f4u95Lo-unsplash.jpg">
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Moisturizer</div>
+                        <h3 class="product-name">Cloud Cream</h3>
+                        <p class="product-description">An ultra-light moisturizer that melts into skin, providing
+                            all-day comfort and nourishment.</p>
+                        <div class="product-price">$52</div>
+                        <div class="product-actions">
+                            <button class="btn btn-product">Add to Cart</button>
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-image-inner">
+                            <img src="./img/nataliya-melnychuk-I-6Ap7JXHq8-unsplash.jpg">
+                        </div>
+                        <span class="product-badge" style="background: #B8C5B0;">Natural</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Cleanser</div>
+                        <h3 class="product-name">Gentle Cleansing Gel</h3>
+                        <p class="product-description">A pH-balanced cleanser that removes impurities while maintaining
+                            skin's natural moisture barrier.</p>
+                        <div class="product-price">$36</div>
+                        <div class="product-actions">
+                            <button class="btn btn-product">Add to Cart</button>
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-image-inner">
+                            <img src="./img/nataliya-melnychuk-51sGDpm5S78-unsplash.jpg">
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Treatment</div>
+                        <h3 class="product-name">Vitamin C Brightening Serum</h3>
+                        <p class="product-description">A potent antioxidant formula that evens tone and reveals radiant,
+                            youthful-looking skin.</p>
+                        <div class="product-price">$64</div>
+                        <div class="product-actions">
+                            <button class="btn btn-product">Add to Cart</button>
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-image-inner">
+                            <img src="./img/kate-glotova-9f9IBWPd2Rg-unsplash.jpg">
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">SPF</div>
+                        <h3 class="product-name">Mineral Sunscreen SPF 50</h3>
+                        <p class="product-description">A weightless, non-greasy formula that provides broad-spectrum
+                            protection without white cast.</p>
+                        <div class="product-price">$42</div>
+                        <div class="product-actions">
+                            <button class="btn btn-product">Add to Cart</button>
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-image-inner">
+                            <img src="./img/mona-jain-DQONde6fLV0-unsplash.jpg">
+                        </div>
+                        <span class="product-badge" style="background: #B8C5B0;">Natural</span>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-category">Night Care</div>
+                        <h3 class="product-name">Overnight Recovery Oil</h3>
+                        <p class="product-description">A luxurious blend of botanical oils that nourishes and repairs
+                            skin while you sleep.</p>
+                        <div class="product-price">$58</div>
+                        <div class="product-actions">
+                            <button class="btn btn-product">Add to Cart</button>
+                            <button class="wishlist-btn" aria-label="Add to wishlist">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skin Quiz Section -->
+    <section class="quiz">
+        <div class="quiz-container">
+            <h2>Find Your Perfect Match</h2>
+            <p>Take our skin quiz to discover personalized product recommendations tailored to your unique skin needs.
+            </p>
+
+            <form class="quiz-form">
+                <div class="form-group">
+                    <label class="form-label">What is your skin type?</label>
+                    <div class="radio-group">
+                        <div class="radio-item">
+                            <input type="radio" name="skinType" id="oily" value="oily">
+                            <label for="oily">Oily</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="skinType" id="dry" value="dry">
+                            <label for="dry">Dry</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="skinType" id="combination" value="combination">
+                            <label for="combination">Combination</label>
+                        </div>
+                        <div class="radio-item">
+                            <input type="radio" name="skinType" id="sensitive" value="sensitive">
+                            <label for="sensitive">Sensitive</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">What are your skin concerns? (Select all that apply)</label>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="antiaging" value="antiaging">
+                            <label for="antiaging">Anti-aging</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="hydration" value="hydration">
+                            <label for="hydration">Hydration</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="brightening" value="brightening">
+                            <label for="brightening">Brightening</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="acne" value="acne">
+                            <label for="acne">Acne</label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Get Recommendations</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h3>Join Our Community</h3>
+            <p>Subscribe to receive exclusive offers, skincare tips, and early access to new products.</p>
+
+            <form class="newsletter-form">
+                <input type="email" class="text-input" placeholder="Enter your email address" required>
+                <label class="checkbox-label">
+                    <input type="checkbox" required>
+                    <span>I agree to receive marketing communications</span>
+                </label>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Cleansers</a></li>
+                    <li><a href="#">Serums</a></li>
+                    <li><a href="#">Moisturizers</a></li>
+                    <li><a href="#">SPF</a></li>
+                    <li><a href="#">Gift Sets</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Ingredient Glossary</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Connect</h4>
+                <p style="opacity: 0.8; font-size: 14px; margin-bottom: 16px;">Follow us for daily inspiration and
+                    skincare tips</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Pinterest">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path
+                                d="M8.5 14.5c.5 2 2 3.5 3.5 3.5 2.5 0 4-2 4-5 0-2.5-1.5-4-3.5-4-2.5 0-4.5 1.5-4.5 4 0 1.5.5 2.5 1.5 3">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pure Essence Skincare. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission handlers
+        document.querySelector('.quiz-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you! Your personalized recommendations are being prepared.');
+        });
+
+        document.querySelector('.newsletter-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for subscribing! Check your inbox for a welcome gift.');
+        });
+
+        // Add to cart buttons
+        document.querySelectorAll('.product-actions .btn-product').forEach(btn => {
+            btn.addEventListener('click', () => {
+                alert('Product added to cart!');
+            });
+        });
+    </script>
+</body>
+
+</html>
